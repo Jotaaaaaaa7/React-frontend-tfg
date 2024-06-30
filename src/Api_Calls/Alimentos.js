@@ -28,6 +28,7 @@ const updateAlimento = async (id, data) => {
 //* Función para crear un alimento
 const createAlimento = async (data) => {
   const response = await axios.post(`${Ruta_Principal}/alimentos`, data);
+  console.log(data);
   return response.data;
 };
 
