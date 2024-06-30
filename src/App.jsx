@@ -26,8 +26,10 @@ function App() {
   const [isNavBarOpen, setIsNavBarOpen] = useState(false);
 
   //* Renderiza la aplicación, el menú de navegación y las rutas de la aplicación
+  //! Prueba
   return (
     <>
+      <h1>aaaaaa</h1>
       <div className={`App ${isNavBarOpen ? 'navbar-open' : 'navbar-closed'}`}>
         <NavBar isOpen={isNavBarOpen} setIsOpen={setIsNavBarOpen} />
         <Routes>
