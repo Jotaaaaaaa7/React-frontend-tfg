@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './login.scss';
+import './Login.scss';
 
 //* Componente que muestra el formulario de login, se incluirá en un futuro
 const Login = () => {
