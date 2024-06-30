@@ -33,17 +33,18 @@
 
 
 /* ===== Sidebar ===== */
-.sidebar{
+.sidebar {
   position: fixed;
   top: 0;
   left: 0;
   height: 100%;
-  width: 300px;
-  padding: 10px 14px;
+  width: 20vw; /* Ajusta el ancho de la barra lateral en función del tamaño de la ventana del navegador */
+  padding: 1vw; /* Ajusta el padding en función del tamaño de la ventana del navegador */
   background: var(--sidebar-color);
   transition: var(--tran-05);
   z-index: 100;
 }
+
 
 .sidebar.close{
   width:88px;
@@ -52,7 +53,7 @@
 /* ===== Resuable CSS ===== */
 
 .sidebar .text {
-  font-size: 16px;
+  font-size: 1vw; /* Ajusta el tamaño de la fuente en función del tamaño de la ventana del navegador */
   font-weight: 500;
   color: var(--text-color);
   transition: var(--tran-03);
