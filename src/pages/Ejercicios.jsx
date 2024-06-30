@@ -53,6 +53,9 @@ const Ejercicios = () => {
         ))}
       </div>
       <PaginationComponent totalPages={totalPages} currentPage={currentPage} handlePageChange={handlePageChange} />
+      <br></br>
+      <br></br>
+
     </>
   );
 }

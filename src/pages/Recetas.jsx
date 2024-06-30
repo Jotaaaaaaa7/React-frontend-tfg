@@ -54,6 +54,8 @@ const Recetas = () => {
         currentPage={activePage}
         handlePageChange={handlePageChange}
       />
+      <br></br>
+      <br></br>
     </>
   );
 }

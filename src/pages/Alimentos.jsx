@@ -10,7 +10,9 @@ const Alimentos = () => {
     <>
         <FilterAlimentos />
           <NewAlimentoButton />
-          <TablaAlimentos />
+      <TablaAlimentos />
+      <br></br>
+      <br></br>
     </>
   )
 }
